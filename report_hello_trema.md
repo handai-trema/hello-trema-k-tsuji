@@ -1,5 +1,5 @@
 #Report: hello_trema
-Submit Oct./5/2016  
+Submission: Oct./5/2016  
 
 ##提出者
 辻　健太  
