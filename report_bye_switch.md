@@ -7,12 +7,17 @@ Submission: Oct./5/2016
 長谷川研究室 所属  
 
 ##回答
-hello_trema.rbに次の２つのメソッドを追加した.  
+libディレクトリにtrema.confを追加し,  
+同ディレクトリにおけるhello_trema.rbに次の２つのメソッドを追加した.  
+こうすることで,まずCtrl + Cを入力された際に,  
+まずTremaが停止することでstopメソッドが呼ばれ,  
+次にコントローラおよびスイッチ間のコネクションが切れるため,  
+switch_disconnectedメソッドが呼ばれる.  
 
 ###1. switch_disconnected(datapath_id)  
 呼び出し：	コントローラとスイッチとのコネクションが途切れたとき.  
 引数：		スイッチのID  
-出力：		"Bey (スイッチのID)"  
+出力：		"Bye (スイッチのID)"  
 	
 	
 ###2. stop(args)  
