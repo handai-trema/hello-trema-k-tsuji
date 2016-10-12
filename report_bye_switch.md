@@ -24,3 +24,7 @@ switch_disconnectedメソッドが呼ばれる.
 呼び出し：	Tremaが止まったとき.  
 引数：		任意の引数  
 出力：		"Trema Finished."  
+
+
+##関連リンク
+* [lib/hello_trema.rb](https://github.com/handai-trema/hello-trema-k-tsuji/blob/master/lib/hello_trema.rb "lib/hello_trema.rb")  
